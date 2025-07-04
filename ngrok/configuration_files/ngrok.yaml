@@ -1,0 +1,11 @@
+version: 3
+
+agent:
+  authtoken: 2RjQIy3v4UKMx5iflXK94MiUv9d_9ToDmkzpFNuHvjRTUZXT
+
+tunnels:
+  device5-mte-avo-edgenode:
+    addr: 22 # SSH port
+    proto: tcp
+    remote_addr: 9.tcp.eu.ngrok.io:20003
+    metadata: '{"device": "node001",  "location": "mt-elgon", "internal_name": "006-002"}'
