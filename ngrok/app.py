@@ -11,6 +11,9 @@ class NgrokAPIs:
             }
 
     def get_all_endpoints(self):
+        """Get all endpoints for the ngrok account in question.
+        """
+        
         logger.info("Fetch all started logs")
 
         res = requests.get(
